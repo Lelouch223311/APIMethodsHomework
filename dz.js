@@ -73,6 +73,7 @@ server.on('request', (req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json')
     let find = friends.find(items => items.id)
+    //! Далее идёт код Нейроонки ) -- Тот что с комментами
     // Функция удаления друга по ID
     function deleteFriend(id) {
     // Поиск друга по ID в списке
